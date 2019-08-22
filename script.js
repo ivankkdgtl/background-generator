@@ -3,6 +3,10 @@ const input = document.getElementById("userinput");	// get the input text field 
 let   ul = document.querySelector("ul");				// use of new ES5 Syntax to get HTML DOM ELEMENT
 const bunchOfLi= document.querySelectorAll("li");		// use of new ES5 Syntax to get a Nodelist 
 
+var _ = require('lodash');
+
+var array = [1,2,3,4,5];
+console.log('answer:', _.without(array, 3));
 
 const inputLength = () => {
 	//returns the count of characters from the input text field

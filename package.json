@@ -4,7 +4,7 @@
   "description": "shopping cart for playing around",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify script.js > bundle.js && live-server"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/r4pt0s/shopping_cart/issues"
   },
-  "homepage": "https://github.com/r4pt0s/shopping_cart#readme"
+  "homepage": "https://github.com/r4pt0s/shopping_cart#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
