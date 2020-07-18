@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/r4pt0s/shopping_cart#readme",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   }
 }
